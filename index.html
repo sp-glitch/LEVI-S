@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리바이스</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <div class="top_bar">
+        <div class="top_m">
+            <div class="inner">
+                <div class="top_m_l">
+                    <ul>
+                        <li><a href="">membership program</a></li>
+                        <li><a href="">find a store</a></li>
+                    </ul>
+                </div>
+                <div class="top_m_r">
+                    <ul class="log">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                    </ul>
+                    <ul class="lang">
+                        <li><a href="">EN</a></li>
+                        <li><a href="">한국어</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <header>
+        <nav class="gnb">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </h1>
+                <ul class="m_menu">
+                    <li><a href="">SHOP</a>
+                        <div class="s_wrap on">
+                            <div class="s_box">
+                                <div class="s_con">
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">MEN</a></li>
+                                        <li><a href="">슬림</a></li>
+                                        <li><a href="">스트레이트</a></li>
+                                        <li><a href="">테이퍼드</a></li>
+                                        <li><a href="">레귤러</a></li>
+                                        <li><a href="">릴렉스</a></li>
+                                    </ul>
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">WOMEN</a></li>
+                                        <li><a href="">스키니</a></li>
+                                        <li><a href="">슬림</a></li>
+                                        <li><a href="">스트레이트</a></li>
+                                        <li><a href="">와이드</a></li>
+                                    </ul>
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">Collection</a></li>
+                                        <li><a href="">Vintage Clothing</a></li>
+                                        <li><a href="">Goldtab™</a></li>
+                                        <li><a href="">Silvertab™</a></li>
+                                        <li><a href="">Levi's® X Emma</a></li>
+                                        <li><a href="">Levi’s® X KENZO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">DISCOVER</a>
+                        <div class="s_wrap on">
+                            <div class="s_box">
+                                <div class="s_con">
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">의류</a></li>
+                                        <li><a href="">셔츠</a></li>
+                                        <li><a href="">쟈켓</a></li>
+                                        <li><a href="">벨트</a></li>
+                                        <li><a href="">액세서리</a></li>
+                                    </ul>
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">진 바이 핏</a></li>
+                                        <li><a href="">스키니</a></li>
+                                        <li><a href="">슬림</a></li>
+                                        <li><a href="">스트레이트</a></li>
+                                        <li><a href="">와이드</a></li>
+                                    </ul>
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">Levi's</a></li>
+                                        <li><a href="">지속가능성</a></li>
+                                        <li><a href="">Levi's 제품</a></li>
+                                        <li><a href="">Levi's Take Care</a></li>
+                                        <li><a href="">자세히 알아보기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="" class="n">NEW ARRIVAL</a>
+                        <div class="s_wrap on">
+                            <div class="s_box">
+                                <div class="s_con">
+                                    <ul class="s_menu">
+                                        <li><a href="" class="st">What's HOT?</a></li>
+                                        <li><a href="">Men</a></li>
+                                        <li><a href="">Women</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">SALE</a>
+                    </li>
+                    <li><a href="">LVC</a>
+                    </li>
+                </ul>
+
+                <div class="util">
+                    <div class="search_box">
+                        <span><i data-feather="search"></i></span>
+                        <input type="text" required placeholder="무엇을 찾으시나요?">
+                    </div>
+                    <div class="icon_box">
+                        <a href=""><i data-feather="bell"></i></a>
+                        <a href=""><i data-feather="heart"></i></a>
+                        <a href=""><i data-feather="shopping-bag"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="mopen">
+        <button class="hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </div>
+    <main id="content">
+        <section class="main_slide">
+            <h2 class="blind">메인슬라이드</h2>
+            <div class="swiper main_slide_inner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm itm01">
+                        <div class="slide_txt_area">
+                            <strong>LEVI’S DENIM</strong>
+                            <p>리바이스를 대표하는 디테일<br />
+                                셀비지 데님만의 시그니처 레드 스티치</p>
+                            <a href="">
+                                SHOP NOW
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm02">
+                        <div class="slide_txt_area slide_txt_area_b">
+                            <strong>NEW ARRIVALS</strong>
+                            <p>순환성과 재활용성을 더욱 높인 LEVI'S<br />
+                                지금 만나보세요</p>
+                            <a href="">
+                                SHOP NOW
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm03">
+                        <div class="slide_txt_area">
+                            <strong>VINTAGE CLOTHING</strong>
+                            <p>그 시대가 가지고 있는 힘,<br />
+                                20,000 개 이상의 아카이브 컬렉션</p>
+                            <a href="">
+                                VIEW MORE
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide_btn">
+                        <div class="swiper-button-p">
+                            <a href=""><i data-feather="arrow-left"></i></a>
+                        </div>
+                        <div class="swiper-button-n">
+                            <a href=""><i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="main_tab">
+            <h2 class="blind">메인탭메뉴</h2>
+            <div class="inner">
+                <div class="tit_box">
+                    <strong>Levi’s® <br />
+                        RECOMMEND</strong>
+                    <span>
+                        다양한 핏으로 만나는,<br />
+                        리바이스 청바지!
+                    </span>
+                    <div class="arrow_box">
+                        <div class="slide_btn">
+                            <div class="swiper-button-nn">
+                                <span class="material-symbols-outlined">
+                                    chevron_left
+                                </span>
+                            </div>
+                            <div class="swiper-button-pp">
+                                <span class="material-symbols-outlined">
+                                    chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_box">
+                    <div class="tab_menu">
+                        <ul>
+                            <li class="on"><a href="">Men</a></li>
+                            <li><a href="">Women</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_cont">
+                        <div class="second-swiper content on">
+                            <div class="swiper-wrapper tab_inner">
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab06.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">501® 오리지널 진</a>
+                                        <p>₩89,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab07.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">505™ 레귤러 진</a>
+                                        <p>₩89,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab011.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">501® 오리지널 진_RIGID</a>
+                                        <p>₩89,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab10.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">1947 진_ORGANIC RIGID</a>
+                                        <p>₩349,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab11.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">SILVERTAB™ 루즈 진</a>
+                                        <p>₩99,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab12.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">워크웨어 유틸리티 핏 진</a>
+                                        <p>₩89,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="second-swiper content">
+                            <div class="swiper-wrapper tab_inner">
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab020.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">립케이지 스트레이트 앵클 진</a>
+                                        <p>₩159,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab018.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">립케이지 벨 진</a>
+                                        <p>₩159,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab017.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">SILVERTAB™ 루즈 진</a>
+                                        <p>₩159,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab019.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">배기 카고 진</a>
+                                        <p>₩159,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab021.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">501® ’90s 진</a>
+                                        <p>₩149,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="swiper-slide">
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/main_tab022.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <a href="">1950's 진_ORGANIC RIGID</a>
+                                        <p>₩299,000</p>
+                                        <div class="color_box">
+                                            <img src="./images/main_tab_color01.jpeg" alt="">
+                                            <img src="./images/main_tab_color02.jpeg" alt="">
+                                            <img src="./images/main_tab_color03.jpeg" alt="">
+                                            <img src="./images/main_tab_color04.jpeg" alt="">
+                                            <img src="./images/main_tab_color05.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_history">
+            <h2 class="blind">메인히스토리</h2>
+            <div class="inner">
+                <div class="tit_box">
+                    <strong>Levi’s® 501® HISTORY</strong>
+                </div>
+                <div class="cont_box">
+                    <div class="left_con">
+                        <div class="img_box">
+                            <img src="./images/main_history01.jpg" alt="">
+                            <div class="txt_box">
+                                <strong>501® 오리지널</strong>
+                                <p>150년의 시간을 증명해주는 501® 오리지널 진은<br />
+                                    현재 존재하는 모든 청바지의 청사진입니다. </p>
+                                <a href="" class="add_btn">
+                                    <span class="material-symbols-outlined">
+                                        add_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <img src="./images/main_history02.png" alt="">
+                            <div class="txt_box">
+                                <strong>501® 슬림 테이퍼</strong>
+                                <p>501® 오리지널 진의 스포츠 버전입니다.<br />
+                                    01® 오리지널 진의 디테일을 그대로 가지고 있습니다.</p>
+                                <a href="" class="add_btn">
+                                    <span class="material-symbols-outlined">
+                                        add_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <img src="./images/main_history03.png" alt="">
+                            <div class="txt_box">
+                                <strong>501® '93</strong>
+                                <p>1993년의 스케이트보딩 문화와 <br />
+                                    그 무드를 더한 501® 진입니다.</p>
+
+                                <p>무릎에서 발목은 스트레이트 핏으로 진화하였습니다.</p>
+                                <a href="" class="add_btn">
+                                    <span class="material-symbols-outlined">
+                                        add_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <img src="./images/main_history04.png" alt="">
+                            <div class="txt_box">
+                                <strong>501® '54</strong>
+                                <p>아카이브에서 발견한 1954년산 청바지에서 영감을 받아,<br />
+                                    바느질부터 뒷주머니의 모양까지 그대로 만들어졌습니다. </p>
+                                <a href="" class="add_btn">
+                                    <span class="material-symbols-outlined">
+                                        add_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <img src="./images/main_history05.png" alt="">
+                            <div class="txt_box">
+                                <strong>501® 크롭</strong>
+                                <p>501® 크롭 진은 말 그대로 크롭된 501® 진입니다.</p>
+                                <p>하이라이즈 실루엣은 곡선을 강조하고,<br />
+                                    크롭된 기장은 다리를 길어보이게 하는 효과를 줍니다</p>
+                                <a href="" class="add_btn">
+                                    <span class="material-symbols-outlined">
+                                        add_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <div class="right_txt">
+                            <strong>리바이스의 150년 역사</strong>
+                            <p>501®진의 세계로 여러분을 초대합니다.</p>
+                            <div class="arrow_box">
+                                <div class="slide_btn">
+                                    <div class="slide_btn_l">
+                                        <span class="material-symbols-outlined">
+                                            chevron_left
+                                        </span>
+                                    </div>
+                                    <div class="slide_btn_r">
+                                        <span class="material-symbols-outlined">
+                                            chevron_right
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_con">
+                            <div class="img_box">
+                                <img src="./images/main_history02.png" alt="">
+                                <div class="txt_box">
+                                    <strong>501® 슬림 테이퍼</strong>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./images/main_history03.png" alt="">
+                                <div class="txt_box">
+                                    <strong>501® '93</strong>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./images/main_history04.png" alt="">
+                                <div class="txt_box">
+                                    <strong>501® '54</strong>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./images/main_history05.png" alt="">
+                                <div class="txt_box">
+                                    <strong>501® 크롭</strong>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./images/main_history01.jpg" alt="">
+                                <div class="txt_box">
+                                    <strong>501® 오리지널</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="">VIEW MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_info">
+            <h2 class="blind">메인정보</h2>
+            <div class="inner">
+                <div class="info_grid">
+                    <div class="gird_img">
+                        <img src="./images/main_info02_2.png" alt="">
+                    </div>
+                    <div class="gird_img grid_txt">
+                        <strong>LEVI’S® <span>RED TAB™</span></strong>
+                        <p>MEMBERSHIP PROGRAM</p>
+                        <div class="btn_box">
+                            <button>가입하기</button>
+                            <button>로그인</button>
+                        </div>
+                    </div>
+                    <div class="gird_img">
+                        <img src="./images/main_info05.jpg" alt="">
+                    </div>
+                    <div class="gird_img">
+                        <img src="./images/main_info01.jpg" alt="">
+                        <div class="txt_box">
+                            <strong>EARLY ACCESS</strong>
+                            <p>가장 먼저 신제품을 만나보세요!</p>
+                            <a href="">VIEW MORE</a>
+                        </div>
+                    </div>
+                    <div class="gird_img">
+                        <img src="./images/main_info04_2.jpg" alt="">
+                        <div class="txt_box txt_box_r">
+                            <strong>MEMBER EVENT</strong>
+                            <p>멤버만을 위한 다양한 혜택을 만나보세요.</p>
+                            <a href="">VIEW MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_check">
+            <h2 class="blind">메인체크</h2>
+            <div class="inner">
+                <div class="check_box">
+                    <div class="check_txt">
+                        <strong>주문 / 배송 조회</strong>
+                        <div class="search_box">
+                            <input type="text" required placeholder="주문번호">
+                            <input type="text" required placeholder="이메일">
+                        </div>
+                        <div class="btn_box">
+                            <button>조회</button>
+                            <button class="line">AS/기타</button>
+                        </div>
+                    </div>
+                    <div class="kakao">
+                        <a href=""><img src="./images/kakao_icon_y.png" alt=""></a>
+                        <p>채널 친구 추가하고 혜택 알림 받기</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="inner">
+            <div class="f_top">
+                <ul>
+                    <li><a href="">Levi's</a></li>
+                    <li><a href="" class="b">개인정보처리방침</a></li>
+                    <li><a href="">사이트맵</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">법적 고지</a></li>
+                    <li><a href="">사이즈 가이드</a></li>
+                </ul>
+
+                <div class="icon">
+                    <a href=""><i class="xi-facebook"></i></a>
+                    <a href=""><i class="xi-instagram"></i></a>
+                    <a href=""><i class="xi-youtube-play"></i></a>
+                    <a href=""><i class="xi-kakaotalk"></i></a>
+                </div>
+            </div>
+            <div class="f_bttom">
+                <div class="f_b_left">
+                    <ul>
+                        <li><a href="" class="b">Levi’s Info</a></li>
+                        <li><a href="">리바이스소개</a></li>
+                        <li><a href="">RED TAB™ 멤버십</a></li>
+                        <li><a href="">채용안내</a></li>
+                        <li><a href="">이용약관</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="" class="b">Support</a></li>
+                        <li><a href="">서포트</a></li>
+                        <li><a href="">NOTICE</a></li>
+                        <li><a href="">1:1문의</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="" class="b">Customer Service</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">문의하기</a></li>
+                        <li><a href="">배송안내</a></li>
+                        <li><a href="">반품안내</a></li>
+                        <li><a href="">자주하는 질문</a></li>
+                    </ul>
+                </div>
+                <div class="f_b_right">
+                    <ul>
+                        <li class="name">대표이사 : 김규완</li>
+                        <li>
+                            <p>A/S 접수주소: 서울시 강남구 테헤란로 409<br />
+                                동신빌딩 10층 리바이스 고객상담실</p>
+                        </li>
+                        <li>주중(오전 9:30 - 오후 6:00)</li>
+                        <li><strong>02-2051-1040</strong></li>
+                        <li class="e-mail"> Customercare@Levi.co.kr</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
